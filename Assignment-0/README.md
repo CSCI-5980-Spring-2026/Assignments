@@ -43,7 +43,7 @@ If low-level function calls in OpenGL seems daunting, then these two tutorials c
 
 We are using GitHub classroom for submission of programming assignments. When you accept the first assignment, you will need to select your x500 from the class roster. The system will then create a new private repository with template code that is only accessible by you and the instructor. You will need to create a GitHub.com account if you do not already have one. Note that this is different from the University's github.umn.edu account.
 
-**Step 1:** Create your private repository using the following link: LINK TO BE ADDED
+**Step 1:** Create your private repository using the following link: https://classroom.github.com/a/SaQ0DomL
 
 **Step 2:** Your repository will be added to the [GitHub course organization](https://github.com/CSCI-5980-Spring-2026). You can then check out the code to your local machine. If you are not familiar with using `git` from the command line, then I recommend using a GUI such as [GitHub Desktop](https://desktop.github.com/).
 
