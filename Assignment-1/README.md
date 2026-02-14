@@ -4,7 +4,7 @@
 
 At the end of our last live programming class, all of the nodes were stored in a flat vector in the `Scene` class. In this assignment, you will implement a scene graph structure. Each `Node` will contain an arbitrary number of child nodes, and update and draw calls will recursively propagate through the entire graph.
 
-We weren't quite able to finish implementing the assignment starter code during our last live programming class. So, please watch this brief video that I have prepared to finish and explain the code you will be extending in this assignment. (VIDEO LINK WILL BE ADDED SHORTLY.)
+We weren't quite able to finish implementing the assignment starter code during our last live programming class. So, please watch the [video](https://mediaspace.umn.edu/media/t/1_zg0x21sl) that I have prepared to finish and explain the code you will be extending in this assignment.
 
 Late submissions will be accepted until *Wednesday, March 18*. As described in the [syllabus](https://github.com/CSCI-5980-Spring-2026/Syllabus), the late penalty is 5% per day, which can be reduced by spending late points.
 
@@ -31,14 +31,14 @@ Graded out of 15 points. Steps that are worth 1 point are typically all or nothi
 
 - To make the child nodes appear, you need to add code at the end of `Node::draw()` that recursively calls the `draw()` method for all its children. (1)
 
-- Each child node should be initially placed 50 units away from the camera in a random direction. In other words, the nodes will be placed at random points on the surface of an imaginary sphere. When you are done, the child cubes should appear to surround the parent cube, but they will not be animated yet. (2)
+- Each child node should be initially placed 50 units away from the camera in a random direction. In other words, the nodes will be placed at random points on the surface of an imaginary sphere. When you are done, the child cubes should appear to surround the parent cube, but they will not be animated yet. (2)  
   *Hint: There is more than one way to do this. However, one straightforward way will be to construct a quaternion using two random angles, and then use it to rotate a vector.*
 
 **Part 4: Scene Graph Propagation** (5 points)
 
 - Add code at the end of `Node::update()` and `Node::update_matrices()` to recursively call these methods for all the node's children. (1)
 - After completing the previous step, you may notice that the framerate has dropped, causing the root node's animation to appear choppy. In the terminal, you should be able to see the `cout` from all 1000 nodes when the local matrix is recomputed each frame. However, none of these nodes have been moved from their initial positions, so we are wasting a ton of computation by recomputing the local matrix! You can fix this by adding a `local_matrix_dirty_` flag as a member variable. This flag should be set to true whenever the public mutator methods for `position_`,  `rotation_`, and `scale_` are called. Then, modify `Node::update_matrices()` so that the `local_matrix_` is only recomputed when it is dirty. When this step is complete, the framerate should be back to normal, and you should only see the `cout` output for the root node each frame. (2)
-- For the last step, you will need to modify the `Node::update_matrices()` method so that `world_matrix_` recursively propagates to all the child nodes. Each node's world matrix should be computed by combining it with the world matrix of its parent. Remember that matrix multiplication is not commutative! When you are finished, all of the child cubes should appear to orbit around the root node, following the animation you implemented in the previous step. (2)
+- For the last step, you will need to modify the `Node::update_matrices()` method so that `world_matrix_` recursively propagates to all the child nodes. Each node's world matrix should be computed by combining it with the world matrix of its parent. Remember that matrix multiplication is not commutative! When you are finished, all of the child cubes should appear to orbit around the root node, following the animation you implemented in the previous step. (2)  
   *Note: this is the trickiest part of this assignment. The parent's world matrix is currently not accessible in the node, so you will need to figure out how to recursively propagate it through the scene graph.*
 
 **Bonus Challenge** (1 point)
