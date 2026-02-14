@@ -53,7 +53,7 @@ Graded out of 15 points. Steps that are worth 1 point are typically all or nothi
 
 We are using GitHub classroom for submission of programming assignments. When you accept the first assignment, you will need to select your x500 from the class roster. The system will then create a new private repository with template code that is only accessible by you and the instructor. You will need to create a GitHub.com account if you do not already have one. Note that this is different from the University's github.umn.edu account.
 
-**Step 1:** Create your private repository using the following link: TO BE ADDED.
+**Step 1:** Create your private repository using the following link: https://classroom.github.com/a/AN6wHoe8
 
 **Step 2:** Note that GitHub Classroom may show you a "Repository Access Issue"  error. This can safely be ignored. To gain access to your repository, you will need to check the email associated with your GitHub account for an invitation. Note that this may be a different from your UMN email. Note that GitHub Classroom may show you a "Repository Access Issue"  error. This can safely be ignored
 
