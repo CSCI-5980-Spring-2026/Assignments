@@ -1,6 +1,6 @@
 # Assignment 2: Rendering Pipeline
 
-**Due: Thursday, March 18, 11:59pm CT**
+**Due: Thursday, March 19, 11:59pm CT**
 
 At the end of our last live programming class, we had almost completed the code for the `BlinnPhongMaterial`.  First, please watch the video that explains the finished code you will be extending in this assignment. (LINK WILL BE ADDED SOON.)
 
