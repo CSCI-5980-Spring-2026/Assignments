@@ -2,7 +2,7 @@
 
 **Due: Thursday, March 19, 11:59pm CT**
 
-At the end of our last live programming class, we had almost completed the code for the `BlinnPhongMaterial`.  First, please watch the video that explains the finished code you will be extending in this assignment. (LINK WILL BE ADDED SOON.)
+At the end of our last live programming class, we had almost completed the code for the `BlinnPhongMaterial`.  First, please watch the [video](https://mediaspace.umn.edu/media/t/1_u7ee44mz) that explains the finished code you will be extending in this assignment.
 
 In this assignment, you will be additional functionality to the game engine, including interactive camera control, a wireframe rendering mode for the two existing materials, additional geometric primitives, and new shaders/materials.
 
