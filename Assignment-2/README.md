@@ -60,7 +60,7 @@ The "full screen" shader effect will then be mapped to the UV coordinates of the
 
 You can apply the new materials onto some of the existing objects you added in part 3 or add entirely new objects to the scene to demonstrate them.
 
-**Bonus Challenge** (1 points)
+**Bonus Challenge** (1 point)
 
 In part 4, you will get full credit for implementing new materials using fragment shaders you find on ShaderToy or elsewhere online. However, you can earn a bonus point for going above and beyond the base requirements by writing your own shader code from scratch or integrating a more complex set of vertex/fragment shaders that require significant CPU-side implementation. For example, you could implement a shader that involves vertex deformation, mesh morphing, particles, or a wide variety of other visual effects. Creativity is encouraged!
 
