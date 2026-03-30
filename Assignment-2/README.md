@@ -71,7 +71,7 @@ We are using GitHub classroom for submission of programming assignments. When yo
 
 **Step 1:** Create your private repository using the following link: [https://classroom.github.com/a/nVq88ZdT](https://classroom.github.com/a/nVq88ZdT)
 
-**Step 2:** Note that GitHub Classroom may show you a "Repository Access Issue"  error. This can safely be ignored. To gain access to your repository, you will need to check the email associated with your GitHub account for an invitation. Note that this may be a different from your UMN email. Note that GitHub Classroom may show you a "Repository Access Issue"  error. This can safely be ignored.
+**Step 2:** To gain access to your repository, you will need to check the email associated with your GitHub account for an invitation. Note that this may be a different from your UMN email. Note that GitHub Classroom may show you a "Repository Access Issue" error. This can safely be ignored.
 
 **Step 3:** Your private repository will be added to the [GitHub course organization](https://github.com/CSCI-5980-Spring-2026). It will already contain the starter code that was forked from the assignment template project. You can then check out the code to your local machine. If you are not familiar with using `git` from the command line, then I recommend using a GUI such as [GitHub Desktop](https://desktop.github.com/).
 
