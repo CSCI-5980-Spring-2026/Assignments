@@ -1,6 +1,6 @@
 # Assignment 3: Asset Conditioning Pipeline
 
-**Due: Monday, April 13, 11:59pm CT**
+**Due: Wednesday, April 15, 11:59pm CT** (extended)
 
 In this assignment, you will implement the offline asset conditioning pipeline to prepare assets (meshes, materials, and textures) in a game-ready format. In the runtime engine, you will also add code to the resource manager that loads these processed resources.
 
@@ -85,9 +85,11 @@ When this part is completed, a cow will appear in the scene.
 
 The material for `spot.obj` references a texture file, but the object does not display a texture yet.
 
-In the asset conditioner, you will need to add a string to the material file.
+In the asset conditioner, you will need to add a string to the material file that describes the texture.
 
-- If the material references a texture, specify its resource name. Similar to the material, you can generate this by appending `:texture` to the mesh name (asset path). If there is no texture, then specify `none`. (1)
+- If the material references a texture, specify its resource name (asset path). This will be needed by the resource manager to load the texture and generate the GUID. If there is no texture, then specify `none`. (1)
+
+*Note: in the original version of the assignment, there was a line here that mistakenly described appending `:texture` to the path. That note actually belonged in Part 6 for embedded textures. I have extended the assignment deadline by two days in case anyone was confused by this error.*
 
 In the runtime resource manager's `load_material()` function, if the material references a texture, then we can follow a similar procedure as Part 3.
 
@@ -110,6 +112,7 @@ For this part, you can uncomment the code in `MainLoopTest` that loads `ogre.glb
 To complete the assignment, you will need to:
 
 - Add embedded texture support to the offline asset conditioner. (2)
+- For the texture path that is written to the material file and used to generate the texture GUID, you can generate this by appending `:texture` to the mesh name (asset path). This works because the texture is not actually stored as a separate file.
 - Add code to `MainLoopTest` to resolve the cross-reference between the ogre mesh and material. (1)
 
 Note that this task is intentionally less structured than the previous parts of the assignment, and it will likely require consulting the online documentation for assimp. AI tools can also be very useful in explaining how embedded textures are represented in the import library's data structures.
