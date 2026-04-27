@@ -5,4 +5,5 @@
 - [Assignment 2: Rendering Pipeline](https://github.com/CSCI-5980-Spring-2026/Assignments/tree/main/Assignment-2)
 - [Assignment 3: Asset Conditioning Pipeline](https://github.com/CSCI-5980-Spring-2026/Assignments/tree/main/Assignment-3)
 - [Assignment 4: Collision Testing](https://github.com/CSCI-5980-Spring-2026/Assignments/tree/main/Assignment-4)
+- [Assignment 5: Physics and Spatial Audio](https://github.com/CSCI-5980-Spring-2026/Assignments/tree/main/Assignment-5)
 
