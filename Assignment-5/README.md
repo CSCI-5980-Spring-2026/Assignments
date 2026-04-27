@@ -8,7 +8,7 @@ Because this assignment is due instead of a final exam, **no late submissions** 
 
 ## Code Organization
 
-For this assignment, the engine has been extended with several new capabilities. For more explanation of how this code works, please see the video for programming class 14.
+For this assignment, the engine has been extended with several new capabilities. For more explanation of how this code works, please see the [video for programming class 15](https://mediaspace.umn.edu/media/t/1_5a4nzsd2).
 
 **Physics System**
 
